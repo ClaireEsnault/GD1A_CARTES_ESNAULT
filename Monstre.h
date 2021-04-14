@@ -17,8 +17,8 @@ class Monstre{
         int getAtk();
         bool getDispo();
 
-        void attaque();
-        void getHurt();
+        void attaque(Monstre, monstreEnnemi);
+        void getHurt(int atk);
         // Manque le fait d'afficher les nouveaux PV
         //après avoir été attaqué        
 };

@@ -2,7 +2,11 @@
 #include <iostream>
 #include <string>
 
-Monstre::Monstre(): _nom("Gobelin"), _pv(20), _atk(7){
+Monstre::Monstre(): _nom("Gobelin"), _pv(20), _atk(7), _dispo(true){
+
+}
+
+Monstre::Monstre(std::string nom, int pv, int atk, bool dispo): _nom(nom), _pv(pv), _atk(atk), _dispo(dispo){
 
 }
 
@@ -21,3 +25,7 @@ int Monstre::getAtk(){
 bool Monstre::getDispo(){
     return _dispo;
 }
+
+
+
+#endif
