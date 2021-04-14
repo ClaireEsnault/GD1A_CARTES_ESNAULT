@@ -26,7 +26,6 @@
             // Manque le fait d'afficher les nouveaux PV
             //après avoir été attaqué    
 
-};
-
+    };
 
 #endif

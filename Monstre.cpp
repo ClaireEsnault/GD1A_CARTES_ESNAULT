@@ -4,6 +4,7 @@
 #include "Monstre.h"
 #include <iostream>
 #include <string>
+using namespace std;
 
     Monstre::Monstre(): _nom("Gobelin"), _pv(20), _atk(7), _dispo(true){
 
@@ -32,9 +33,11 @@
     //pointeur là-aussi pour attaquer le monstre ennemi
     void Monstre::attaque(Monstre * monstreEnnemi){
         //Pour attaquer il faut que le monstre soit "dispo"
-        if (_dispo = true){
+        if (_dispo = true)
+            {
+        
 
-        }
+            }
     }
 
     bool Monstre::mortMonstre(){
@@ -43,6 +46,7 @@
             _pv =0;
             _dispo = false;
             return true;
+            cout << "Votre Monstre est mort"<< endl;
         }
     }
 
