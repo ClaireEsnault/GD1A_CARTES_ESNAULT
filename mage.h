@@ -4,12 +4,14 @@
 #include <iostream>
 #include <string>
 #include "Monstre.h"
+#include <vector>
 
     class Mage{
 
         private:
         std::string _nom;
         int _pv;
+        std::vector<zoneJeu>;
 
         public:
         Mage();
