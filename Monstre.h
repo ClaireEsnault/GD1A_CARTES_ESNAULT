@@ -22,9 +22,10 @@
 
             void attaque(Monstre * monstreEnnemi); //modif pointeur car monstre ennemi est "ailleurs"
             void getHurt(int atk);
+            bool mortMonstre();
             // Manque le fait d'afficher les nouveaux PV
-        
-            //après avoir été attaqué        
+            //après avoir été attaqué    
+
 };
 
 
